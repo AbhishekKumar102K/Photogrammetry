@@ -1,0 +1,103 @@
+/* Container */
+* {
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    border: 0px solid black;
+    width: 80%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Preview */
+#file
+{
+    clear: both;
+    font-size: 1.2em;
+    padding-left: 100px;
+}
+
+#content{
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #dcedff;
+}
+.inst{
+    color: #dcedff;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-top: -300px;
+    height: 200px; 
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.filechoose {
+    position: relative;
+
+    float: right;
+    width: 40%;
+    height: 200px;
+    clear: both;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+
+/* Button */
+.button{
+    border: 0px;
+    clear: both;
+    float: bottom;
+    background-color: #8f91a2;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.box {
+    margin-top: 100px;
+    float: right;
+    width: 40%;
+    color: #94b0da;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 250px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+
+h1{
+    color: #94b0da;
+    margin-top: 100px;
+    text-align: left;
+    float: left;
+    /*color: #dcedff;*/
+    font-size: 80px;
+    
+}
+body {
+  font-size: 16px;
+  color: #94b0da;
+  background-color: #343f3e ;
+  background-image: url("blackbg.jpg");
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+
+
